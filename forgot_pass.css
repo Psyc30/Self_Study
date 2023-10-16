@@ -88,8 +88,12 @@ input{
     transition: transform 0.3s ease;
 }
 
+input::placeholder{
+    text-align: center;
+}
+
 input:focus{
-    background-color: rgb(176, 233, 255);
+    background-color: white;
     transform: scale(1.1);
 }
 

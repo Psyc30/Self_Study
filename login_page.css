@@ -98,7 +98,7 @@ input{
 }
 
 input:focus{
-    background-color: rgb(176, 233, 255);
+    background-color: white;
     transform: scale(1.1);
 }
 

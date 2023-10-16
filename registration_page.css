@@ -50,19 +50,19 @@ li{
     padding-top: 15px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: white;  
-    position: fixed;
+    background-color: white; 
+    position: fixed; 
 }
 
 h1{
     text-align: center;
-    padding: 20px auto;
+    padding: 10px auto;
     font-size: 50px;
 }
 
 p{
     text-align: center;
-    padding: 10px 0 30px 0;
+    padding: 10px 0 10px 0;
 }
 
 input{
@@ -72,7 +72,7 @@ input{
     width: 70%;
     padding:  5px 0;
     background-color: rgb(231, 231, 231);
-    border: 1px solid rgb(170, 168, 168);
+    border: 2px solid rgb(170, 168, 168);
     outline: none;
     text-indent: 10px;
     border-radius: 5px;
@@ -80,7 +80,7 @@ input{
 }
 
 input:focus{
-    background-color: rgb(176, 233, 255);
+    background-color: white;
     transform: scale(1.1);
 }
 
