@@ -47,17 +47,19 @@ li{
     width: 40%;
     height: inherit;
     min-width: 400px;
-    padding-top: 15px;
+    padding-top: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white; 
-    position: fixed; 
+    position: fixed;
+    border-top-right-radius: 100px;
+    border-right: 20px ridge rgb(72, 187, 233);
 }
 
 h1{
     text-align: center;
-    padding: 10px auto;
-    font-size: 50px;
+    padding: 0 auto;
+    font-size: 40px;
 }
 
 p{
@@ -68,15 +70,15 @@ p{
 input{
     display: block;
     border: 1px solid black;
-    margin: 0 auto 10px;
+    margin: 0 auto 5px;
     width: 70%;
-    padding:  5px 0;
+    padding:  3px 0;
     background-color: rgb(231, 231, 231);
     border: 2px solid rgb(170, 168, 168);
     outline: none;
     text-indent: 10px;
     border-radius: 5px;
-    transition:transform 0.3s ease ;
+    transition:transform 0.3s ease;
 }
 
 input:focus{
@@ -89,7 +91,7 @@ label{
 }
 
 .Conditions input[type="checkbox"]{
-    margin-top: 20px ;
+    margin-top: 5px ;
     display: inline-block;
     width: unset;
     accent-color: rgb(247, 62, 222);
@@ -98,7 +100,6 @@ label{
 .register{
     display: block;
     margin: 20px auto;
-    width: 100%;
     width: 70%;
     height: 30px;
     background-color: rgb(247, 62, 222);
@@ -118,7 +119,6 @@ label{
     width: 50px;
     height: 30px;
     margin-left: 15px;
-    margin-bottom: 15px;
     background-color: rgb(247, 62, 222);
     border-radius: 5px;
     font-weight: bold;

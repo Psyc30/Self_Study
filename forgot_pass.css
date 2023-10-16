@@ -48,11 +48,15 @@ li{
     width: 40%;
     height: inherit;
     min-width: 400px;
-    padding-top: 15px;
+    padding-top: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
     position: fixed;
+    border-top-right-radius: 100px;
+    border-right: 20px ridge rgb(72, 187, 233);
+    
+    
 }
 
 h1{
