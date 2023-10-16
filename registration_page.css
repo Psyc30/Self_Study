@@ -40,7 +40,6 @@ li{
     color: black;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    
 }
 
 .container{
@@ -126,7 +125,6 @@ label{
 }
 .back:hover{
     background-color: rgb(158, 76, 235);
-    
 }
 
 a{

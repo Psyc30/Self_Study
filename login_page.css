@@ -40,8 +40,7 @@ li{
     transform: scale(1.1);
     color: black;
     background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 .container{
@@ -108,8 +107,7 @@ input:focus{
     margin-top: 5px ;
     display: inline-block;
     width: unset;
-    accent-color: rgb(247, 62, 222);
-    
+    accent-color: rgb(247, 62, 222); 
 }
 
 label{
