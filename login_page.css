@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imgs/webpage-design-elements-designer-purple-background-illustration-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+.menu{
+    display: inline-block;
+    height: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    
+}
+
+.container{
+    width: 40%;
+    height: inherit;
+    min-width: 400px;
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    position: fixed;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px
+}
+
+.p_login{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px auto;
+}
+
+.register{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forgot_pass{
+    text-align: center;
+}
+
+.Copyright{
+    text-align: center;
+    margin-top: 30px;
+}
+.Terms_Policy{
+    margin-top: 10px;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 70%;
+    margin: 0 auto 10px;
+    padding:  5px 0;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(170, 168, 168);
+    text-indent: 10px;
+    border-radius: 5px;
+    outline: none;
+    transition: transform 0.3s ease;
+}
+
+input:focus{
+    background-color: rgb(176, 233, 255);
+    transform: scale(1.1);
+}
+
+.Remember_Me input[type="checkbox"]{
+    margin-top: 5px ;
+    display: inline-block;
+    width: unset;
+    accent-color: rgb(247, 62, 222);
+    
+}
+
+label{
+    margin: 5% 0 5% 15%;
+}
+
+button{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin: 30px auto;
+    border-radius: 5px;
+    background-color: rgb(247, 62, 222);
+    font-weight: bold;
+    font-size: 17px;
+    color: white; 
+    transition: width 0.3s ease;
+}
+
+button:hover{
+   background-color: rgb(158, 76, 235);
+}
+
+a{
+    color: rgb(247, 62, 222);
+}
+
+a:hover{
+    color: rgb(158, 76, 235);
+}
+

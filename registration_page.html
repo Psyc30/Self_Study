@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registration_page.css">
+    <link rel="icon" type="image/png" href="./imgs/dev.png">
+    <title>Registration</title>
+</head>
+<body>
+
+    <nav>   
+        <ul>
+            <li><a href="#home" class="menu">Home</a></li>
+            <li><a href="#news" class="menu">News</a></li>
+            <li><a href="#contact" class="menu">Contact</a></li>
+            <li><a href="#about" class="menu">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <button type="button" class="back"><a href="./login_page.html">back</a></button>
+
+        <h1>Dev|Register</h1>
+        <p>Fill out all required information below.</p>
+
+        <form action="./login_page.html">
+            <label for="">First Name <input type="text" required></label>
+            <label for="">Last Name <input type="text" required></label>
+            <label for="">Middle Name <input type="text" placeholder="Put N/A if not applicable"></label>
+            <label for="">Email <input type="email" required></label>
+            <label for="">Password <input type="password" required></label>
+            <label for="" >Confirm Password <input type="password" required></label>
+            <label for="" class="Conditions"><input type="checkbox"> I agree to the <a href="">Terms & Conditions</a></label>
+
+            <button type="submit" class="register">Register</button>
+        </form>
+    </div>
+</body>
+</html>
