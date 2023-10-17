@@ -50,6 +50,7 @@ li{
     background-repeat: no-repeat;
     background-color: white;
     border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     border-right: 20px ridge rgb(72, 187, 233);
 }
 
