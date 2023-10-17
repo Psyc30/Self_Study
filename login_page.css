@@ -162,4 +162,25 @@ a:hover{
     height: 2px;
 }
 
+.icon_container{
+    display: flex;
+    height: 70px;
+    margin: 0 auto;
+    width: 50%;
+}
 
+i{
+    background-color: rgb(231, 231, 231);
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px 5px 17px;
+    width: 30px;
+    border-radius: 10px;
+    border: 1px ridge black;
+    transition: transform 0.8s ease;
+}
+
+i:hover{
+    background-color:rgb(235, 220, 8);
+    transform: scale(1.1);
+}
