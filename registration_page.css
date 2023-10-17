@@ -28,7 +28,7 @@ li{
 .menu{
     display: inline-block;
     height: 15px;
-    padding: 10px;
+    padding: 10px 25px;
     margin: 0 auto;
     text-decoration: none;
     color: white;
@@ -38,6 +38,7 @@ li{
 .menu:hover{
     color: black;
     background-color: rgb(235, 220, 8);
+    border-radius: 5px;
     margin: 0 auto;
 }
 
