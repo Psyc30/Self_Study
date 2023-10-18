@@ -182,7 +182,7 @@ i{
     margin: 10px 5px 5px 17px;
     width: 30px;
     border-radius: 10px;
-    border: 1px ridge black;
+    border: 1px solid rgb(170, 168, 168);
     transition: transform 0.8s ease;
 }
 
